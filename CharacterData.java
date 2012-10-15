@@ -3,10 +3,6 @@ package dndcompanion;
 import java.util.*;
 import java.io.*;
 
-import org.dom4j.*;
-import org.dom4j.io.*;
-
-
 /**
  * DnDCompanion Character Data classes
  *
@@ -42,10 +38,9 @@ class PlayerFeat
     public String name;
     public String description;
     
-    public PlayerFeat(String name, String description)
+    public PlayerFeat(String name)
     {
         this.name = name;
-        this.description = description;
     }
 
 }
